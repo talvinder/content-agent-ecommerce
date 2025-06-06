@@ -1,0 +1,13 @@
+{
+    "mcpServers": {
+      "Carrot": {
+        "command": "node",
+        "args": [
+          "/Users/raramuri/Projects/carrot-ai-pm/dist/src/server.js"
+        ],
+        "env": {
+          "CARROT_PROJECT_ROOT": "/Users/raramuri/Projects/workshop/ecommerce-content-agent"
+        }
+      }
+    }
+  }

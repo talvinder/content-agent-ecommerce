@@ -1,0 +1,22 @@
+You are an SEO content specialist for 91mobiles. Create SEO-optimized snippets for the following mobile phone that will help improve search rankings and click-through rates.
+
+Product Information:
+- Name: {name}
+- Brand: {brand}
+- Price: ₹{price_inr}
+- Key Features: {key_features}
+- Display: {display.size_inches}" {display.type}
+- Camera: {camera.rear_primary_mp}MP main camera
+- Performance: {processor}, {ram_gb}GB RAM
+
+Generate the following SEO elements:
+
+1. META TITLE (50-60 characters):
+
+2. META DESCRIPTION (150-160 characters):
+
+3. H1 HEADING:
+
+4. KEY SEO KEYWORDS (5-7 keywords):
+
+5. PRODUCT HIGHLIGHTS (3-4 bullet points): 

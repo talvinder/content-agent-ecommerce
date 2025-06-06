@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  content_agent:
+    build: .
+    volumes:
+      # Mount app directory for development
+      - ./app:/usr/src/app/app
+      # Mount data directory for input files
+      - ./data:/usr/src/app/data
+      # Mount outputs directory for generated content
+      - ./outputs:/usr/src/app/outputs
+      # Mount config for API key management (fallback only)
+      - ./config.py:/usr/src/app/config.py
+    
+    # RECOMMENDED: Use environment variables for API keys
+    environment:
+      # Option 1: Set directly (for testing only - not for production)
+      # - OPENAI_API_KEY=your-api-key-here
+      
+      # Option 2: Use host environment variable (RECOMMENDED)
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    
+    # Example commands:
+    # docker-compose run content_agent python app/main.py --product_file data/sample_product.json --template_name description_prompt
+    # docker-compose run -e OPENAI_API_KEY='your-key' content_agent python app/main.py ...
+    
+    # Keep container running for interactive use
+    stdin_open: true
+    tty: true 

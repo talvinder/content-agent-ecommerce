@@ -1,0 +1,27 @@
+{
+  "id": "SKU123",
+  "name": "Galaxy Stellaris Pro",
+  "brand": "Samsung",
+  "price_inr": 69999,
+  "display": {
+    "type": "Dynamic AMOLED 2X",
+    "size_inches": 6.7,
+    "resolution": "3088 x 1440"
+  },
+  "camera": {
+    "rear_primary_mp": 108,
+    "rear_secondary_mp": [12, 10, 10],
+    "front_mp": 40
+  },
+  "processor": "Snapdragon 8 Gen X",
+  "ram_gb": 12,
+  "storage_gb": 256,
+  "battery_mah": 5000,
+  "key_features": [
+    "Advanced Nightography Camera",
+    "120Hz Adaptive Refresh Rate Display",
+    "S-Pen Support (Optional)",
+    "5G Connectivity"
+  ],
+  "brief_description": "Experience the next level of mobile technology with the Galaxy Stellaris Pro, featuring a pro-grade camera system and a stunning dynamic display."
+} 
